@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(135deg,#34d399,#60a5fa);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: white;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #10b981;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #059669;
+}
+
+.thanks {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
